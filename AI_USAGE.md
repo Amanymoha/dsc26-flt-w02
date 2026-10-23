@@ -4,20 +4,17 @@ AI tools are allowed in this task. Fill in every section in your own words. Shor
 
 ## 1. Tools I used
 
-<!-- e.g. "Claude in the browser for the model, GitHub Copilot in VS Code for the widget code". Write "none" if you used none. -->
-
+ChatGPT to help me understand the task, review my code, and fix errors.
 ## 2. The two or three most useful prompts
 
-<!-- Paraphrasing is fine. Say what you were trying to get. -->
 
-1.
-2.
-3.
+1. Explain the task to me step by step.
+2. Help me fix the errors in my code and understand why they happen.
+3. Help me understand how to show the alerts on the screen.
 
 ## 3. One thing the AI got wrong or left out, and how I found it
 
-<!-- What was wrong, and how you noticed: a public test, the README, the Flutter docs, running the app... -->
-
+The AI did not explain everything clearly at first. I checked my code and asked more questions until I understood what I needed to change.
 ## 4. Why `visibleAlerts` lives in the view model and not in the screen
 
-<!-- Two sentences, your own words, no AI. -->
+The view model decides which alerts should be shown. The screen only displays the alerts to the user.
